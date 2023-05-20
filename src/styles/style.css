@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 30px auto;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style: none;
+    margin: 15px;
+}
+.btn-booking {
+    background-color: orange;
+    border: none;
+    border-radius: 15px 5px 15px 5px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container {
+    width: 70%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    max-width: 510px;
+    line-height: 60px;
+    font-size: 55px;
+}
+p {
+    max-width: 370px;
+    margin-top: 70px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.btn-wrapper {
+    margin-top: 45px;
+}
+.menu {
+    background-color: #101A24;
+    border: none;
+    border-radius: 15px 5px 15px 5px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-second {
+    padding: 15px 30px;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.facebookIcon {
+    margin-right: 20px;
+}
+.instagramIcon {
+    margin-right: 20px;
+}
